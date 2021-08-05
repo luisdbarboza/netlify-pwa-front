@@ -50,7 +50,7 @@ self.addEventListener('fetch', function (event)
 {
 
 
-  var url = 'https://httpbin.org/get' ;  //URL de los datos de la app.
+  var url = 'https://blissful-khorana-52ce8a.netlify.app' ;  //URL de los datos de la app.
   if (event.request.url.indexOf(url) > -1) {
     event.respondWith(caches.open(CACHE_DINAMICO)
     .then(function (cache) {
