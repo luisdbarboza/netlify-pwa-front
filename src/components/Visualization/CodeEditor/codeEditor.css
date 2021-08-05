@@ -1,0 +1,14 @@
+.codeEditor {
+  background-color: skyblue;
+  position: absolute;
+}
+
+.codeEditor-nested-call {
+  background-color: #AA6FFF;
+  position: absolute;
+  color: white;
+}
+
+.annotation {
+  color: gray;
+}
